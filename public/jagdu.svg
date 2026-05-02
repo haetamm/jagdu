@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" fill="none">
+  <!-- Body -->
+  <ellipse cx="100" cy="160" rx="52" ry="48" fill="oklch(0.55 0.2 160)" />
+  
+  <!-- Head -->
+  <circle cx="100" cy="92" r="48" fill="oklch(0.85 0.15 85)" />
+  
+  <!-- Eyes -->
+  <ellipse cx="85" cy="88" rx="7" ry="8" fill="oklch(0.2 0.05 160)" />
+  <ellipse cx="115" cy="88" rx="7" ry="8" fill="oklch(0.2 0.05 160)" />
+  <circle cx="88" cy="86" r="2.5" fill="white" />
+  <circle cx="118" cy="86" r="2.5" fill="white" />
+  
+  <!-- Smile -->
+  <path d="M 85 105 Q 100 118 115 105" stroke="oklch(0.2 0.05 160)" stroke-width="3" stroke-linecap="round" fill="none" />
+  
+  <!-- Blush -->
+  <ellipse cx="76" cy="102" rx="8" ry="5" fill="oklch(0.7 0.25 20)" opacity="0.5" />
+  <ellipse cx="124" cy="102" rx="8" ry="5" fill="oklch(0.7 0.25 20)" opacity="0.5" />
+  
+  <!-- Wave arm -->
+  <path d="M 148 120 Q 175 90 165 65" stroke="oklch(0.85 0.15 85)" stroke-width="14" stroke-linecap="round" fill="none" />
+  <circle cx="165" cy="63" r="10" fill="oklch(0.85 0.15 85)" />
+  
+  <!-- Other arm -->
+  <path d="M 52 120 Q 35 140 42 155" stroke="oklch(0.85 0.15 85)" stroke-width="14" stroke-linecap="round" fill="none" />
+  
+  <!-- Floating stars -->
+  <text x="155" y="55" font-size="16" fill="oklch(0.85 0.15 85)">✦</text>
+  <text x="30" y="75" font-size="12" fill="oklch(0.65 0.22 160)" opacity="0.8">✦</text>
+</svg>

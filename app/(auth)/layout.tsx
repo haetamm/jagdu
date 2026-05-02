@@ -2,6 +2,8 @@ import AuthGuard from "@/components/organisms/AuthGuard";
 import BottomNav from "@/components/organisms/BottomNav";
 import Modal from "@/components/organisms/Modal";
 import SidebarNav from "@/components/organisms/SidebarNav";
+import { urlPage } from "@/lib/utils/constans";
+import Link from "next/link";
 import type { ReactNode } from "react";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
@@ -11,12 +13,12 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
         {/* Top bar untuk mobile */}
         <header className="sticky top-0 z-40 bg-background/80 backdrop-blur-xl border-b border-border lg:hidden">
           <div className="flex items-center justify-between px-4 py-3">
-            <div className="flex items-center gap-2">
+            <Link href={urlPage.LANDING} className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg">
                 J
               </div>
               <span className="font-bold text-lg text-foreground">Jagdu</span>
-            </div>
+            </Link>
             <p className="text-xs text-muted-foreground">Think before spend</p>
           </div>
         </header>
